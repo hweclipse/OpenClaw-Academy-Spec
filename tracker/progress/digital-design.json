@@ -3,7 +3,7 @@
   "status": "active",
   "current_chapter": "01-from-zero-to-one",
   "started_at": "2026-06-30",
-  "updated_at": "2026-06-30T00:00:00",
+  "updated_at": "2026-06-30T19:52:00",
   "chapters": [
     {
       "slug": "01-from-zero-to-one",
@@ -13,7 +13,7 @@
       "experiments_total": 2,
       "project_integrated": false,
       "reviewed_by_openclaw": false,
-      "notes": ""
+      "notes": "知识 §1-3 已读（数字抽象/数制/逻辑门），练习 1-4 已完成；CMOS §4-5 + 练习 5-6 待学；实验 E01/E02 未开始"
     },
     {
       "slug": "02-combinational-logic-design",
