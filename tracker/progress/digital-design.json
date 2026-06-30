@@ -1,0 +1,122 @@
+{
+  "course": "digital-design",
+  "status": "active",
+  "current_chapter": "01-from-zero-to-one",
+  "started_at": "2026-06-30",
+  "updated_at": "2026-06-30T00:00:00",
+  "chapters": [
+    {
+      "slug": "01-from-zero-to-one",
+      "title": "从零到一 — 数字系统基础",
+      "status": "in_progress",
+      "experiments_done": 0,
+      "experiments_total": 2,
+      "project_integrated": false,
+      "reviewed_by_openclaw": false,
+      "notes": ""
+    },
+    {
+      "slug": "02-combinational-logic-design",
+      "title": "组合逻辑设计",
+      "status": "pending",
+      "experiments_done": 0,
+      "experiments_total": 3,
+      "project_integrated": false,
+      "reviewed_by_openclaw": false,
+      "notes": ""
+    },
+    {
+      "slug": "03-combinational-circuits",
+      "title": "组合逻辑电路",
+      "status": "pending",
+      "experiments_done": 0,
+      "experiments_total": 3,
+      "project_integrated": false,
+      "reviewed_by_openclaw": false,
+      "notes": ""
+    },
+    {
+      "slug": "04-verilog-intro",
+      "title": "Verilog 入门",
+      "status": "pending",
+      "experiments_done": 0,
+      "experiments_total": 3,
+      "project_integrated": false,
+      "reviewed_by_openclaw": false,
+      "notes": ""
+    },
+    {
+      "slug": "05-sequential-logic",
+      "title": "时序逻辑设计",
+      "status": "pending",
+      "experiments_done": 0,
+      "experiments_total": 3,
+      "project_integrated": false,
+      "reviewed_by_openclaw": false,
+      "notes": ""
+    },
+    {
+      "slug": "06-finite-state-machines",
+      "title": "有限状态机",
+      "status": "pending",
+      "experiments_done": 0,
+      "experiments_total": 3,
+      "project_integrated": false,
+      "reviewed_by_openclaw": false,
+      "notes": ""
+    },
+    {
+      "slug": "07-arithmetic-circuits",
+      "title": "算术电路",
+      "status": "pending",
+      "experiments_done": 0,
+      "experiments_total": 3,
+      "project_integrated": false,
+      "reviewed_by_openclaw": false,
+      "notes": ""
+    },
+    {
+      "slug": "08-digital-building-blocks",
+      "title": "数字系统模块",
+      "status": "pending",
+      "experiments_done": 0,
+      "experiments_total": 3,
+      "project_integrated": false,
+      "reviewed_by_openclaw": false,
+      "notes": ""
+    },
+    {
+      "slug": "09-rtl-design",
+      "title": "RTL 设计方法",
+      "status": "pending",
+      "experiments_done": 0,
+      "experiments_total": 3,
+      "project_integrated": false,
+      "reviewed_by_openclaw": false,
+      "notes": ""
+    },
+    {
+      "slug": "10-mini-soc-integration",
+      "title": "Mini SoC 集成",
+      "status": "pending",
+      "experiments_done": 0,
+      "experiments_total": 2,
+      "project_integrated": false,
+      "reviewed_by_openclaw": false,
+      "notes": ""
+    }
+  ],
+  "project_milestones": [
+    { "slug": "m1-gate-library", "title": "基本逻辑单元库", "status": "pending" },
+    { "slug": "m2-register-counter", "title": "寄存器与计数器", "status": "pending" },
+    { "slug": "m3-alu", "title": "ALU", "status": "pending" },
+    { "slug": "m4-peripheral-controller", "title": "外设控制器", "status": "pending" },
+    { "slug": "m5-mini-soc", "title": "Mini SoC", "status": "pending" }
+  ],
+  "metrics": {
+    "total_days": 0,
+    "total_experiments": 0,
+    "total_project_milestones": 0,
+    "current_streak": 0
+  }
+}

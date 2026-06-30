@@ -9,6 +9,18 @@ OpenClaw Academy 项目变更日志。
 ## [Unreleased]
 
 ### Added
+- Digital Design 课程设计（10 章，DDCA Part I 对齐）
+- 课程目录 + 10 章 README
+- 课程长期项目定义（Mini SoC，5 个里程碑）
+- Tracker 数据 — digital-design.json（10 章 + 5 里程碑）
+- Prompts — Codex(2) / OpenClaw(3) / Architect(2)
+- shared/tools/setup-iverilog.sh — 工具链安装脚本
+- shared/references/reading-list.md — 参考书单
+- shared/references/glossary.md — 统一术语表（数字设计 + Verilog）
+
+## [0.1.0] — 2026-06-30
+
+### Added
 - MASTER_PROMPT.md — 项目章程 v1.0（Architect 创建）
 - CLAUDE.md — Claude Code 操作指南
 - AGENTS.md — Agent 角色定义与协作协议 v1.0
