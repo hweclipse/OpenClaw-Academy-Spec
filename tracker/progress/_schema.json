@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openclaw.academy/tracker/progress.schema.json",
+  "title": "Course Progress",
+  "description": "OpenClaw Academy 课程进度数据模型 v1.0",
+  "type": "object",
+  "required": ["course", "status", "updated_at", "chapters", "project_milestones", "metrics"],
+  "properties": {
+    "course": {
+      "type": "string",
+      "description": "课程 slug，如 digital-design"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["planned", "active", "paused", "completed"],
+      "description": "课程整体状态"
+    },
+    "current_chapter": {
+      "type": ["string", "null"],
+      "description": "当前所在章节 slug，未开始时为 null"
+    },
+    "started_at": {
+      "type": "string",
+      "format": "date",
+      "description": "课程开始日期"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "最后更新时间 (ISO 8601)"
+    },
+    "chapters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["slug", "title", "status", "experiments_done", "experiments_total"],
+        "properties": {
+          "slug": { "type": "string" },
+          "title": { "type": "string" },
+          "status": {
+            "type": "string",
+            "enum": ["pending", "in_progress", "completed", "skipped"]
+          },
+          "started_at": { "type": "string", "format": "date" },
+          "completed_at": { "type": "string", "format": "date" },
+          "experiments_done": { "type": "integer", "minimum": 0 },
+          "experiments_total": { "type": "integer", "minimum": 0 },
+          "project_integrated": { "type": "boolean" },
+          "reviewed_by_openclaw": { "type": "boolean" },
+          "notes": { "type": "string" }
+        }
+      }
+    },
+    "project_milestones": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["slug", "title", "status"],
+        "properties": {
+          "slug": { "type": "string" },
+          "title": { "type": "string" },
+          "status": {
+            "type": "string",
+            "enum": ["pending", "in_progress", "completed"]
+          },
+          "completed_at": { "type": "string", "format": "date" }
+        }
+      }
+    },
+    "metrics": {
+      "type": "object",
+      "properties": {
+        "total_days": { "type": "integer" },
+        "total_experiments": { "type": "integer" },
+        "total_project_milestones": { "type": "integer" },
+        "current_streak": { "type": "integer" }
+      }
+    }
+  }
+}
