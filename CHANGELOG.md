@@ -17,6 +17,8 @@ OpenClaw Academy 项目变更日志。
 - shared/tools/setup-iverilog.sh — 工具链安装脚本
 - shared/references/reading-list.md — 参考书单
 - shared/references/glossary.md — 统一术语表（数字设计 + Verilog）
+- Ch01 完整内容 — knowledge.md / practice.md / experiment.md / review.md
+- Ch01 实验模板 — tb_gates_e01_template.v / tb_cmos_gates_e02_template.v
 
 ## [0.1.0] — 2026-06-30
 
